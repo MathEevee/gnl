@@ -25,7 +25,6 @@ char	*ft_substr(char *src, int start, int len);
 char	*ft_strlcpy_f(char *src, int len);
 int		ft_strchr(char *src);
 int		ft_strlen(char *src);
-char	*ft_substr(char *src, int start, int len);
 char	*ft_strlcpy_f(char *src, int len);
 char	*get_next_line(int fd);
 #endif
