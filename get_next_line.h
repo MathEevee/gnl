@@ -12,19 +12,18 @@
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-# include <fcntl.h>
 # include <unistd.h>
 # include <stdlib.h>
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
 # endif
 
-int		ft_strchr(char *src);
-int		ft_strlen(char *src);
-char	*ft_substr(char *src, int start, int len);
-char	*ft_strlcpy_f(char *src, int len);
-int		ft_strchr(char *src);
-int		ft_strlen(char *src);
 int		ft_security(char *reste, char *dest);
+char	*ft_strjoin_f(char *s1, char *s2);
+char	*ft_loop_buffer(int fd);
 char	*get_next_line(int fd);
+char	*ft_strlcpy_f(char *src, int len);
+char	*ft_substr(char *src, int start, int len);
+int		ft_strlen(char *src);
+int		ft_strchr(char *src);
 #endif
